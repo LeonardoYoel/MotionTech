@@ -3,742 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Parts ITL Corp | Movilidad eléctrica y partes originales</title>
-    <meta
-      name="description"
-      content="Proveedor líder de motocicletas eléctricas, triciclos y repuestos. Vehículos eléctricos sostenibles, eficientes e innovadores para el transporte moderno."
-    />
-    <meta name="author" content="Parts ITL Corp" />
-    <meta
-      property="og:title"
-      content="ElectroRide - Motocicletas y Triciclos Eléctricos"
-    />
-    <meta
-      property="og:description"
-      content="Proveedor líder de motocicletas eléctricas, triciclos y repuestos. Vehículos eléctricos sostenibles, eficientes e innovadores."
-    />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:image"
-      content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/72d635c7-28d8-43cc-9c10-fd76d173c640/id-preview-25eea19d--78b201b6-e418-44ff-a5c3-f4c74a15230b.lovable.app-1759601766249.png"
-    />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta
-      name="twitter:image"
-      content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/72d635c7-28d8-43cc-9c10-fd76d173c640/id-preview-25eea19d--78b201b6-e418-44ff-a5c3-f4c74a15230b.lovable.app-1759601766249.png"
-    />
-
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      /* Definición de la paleta de colores de Tailwind para usar el naranja del logo */
-      :root {
-        --color-primary: #ff5733; /* Naranja intenso, similar al logo */
-      }
-      .bg-primary {
-        background-color: var(--color-primary);
-      }
-      .text-primary {
-        color: var(--color-primary);
-      }
-      .border-primary {
-        border-color: var(--color-primary);
-      }
-
-      /* Estilos de tipografía personalizados */
-      /* Títulos: Sans-serif */
-      .font-sans-title {
-        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-          "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-      }
-      /* Cuerpo: Serif */
-      .font-serif-body {
-        font-family: ui-serif, system-ui, -apple-system, BlinkMacSystemFont,
-        "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-      }
-    </style>
-  </head>
-  <body class="font-serif-body text-gray-900">
-    <header class="shadow-md bg-white sticky top-0 z-50">
-      <div
-        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20"
-      >
-        <a href="#" class="flex items-center space-x-2">
-            <img src="./assets/logo.jpg" alt="logo" class="w-16">
-          <div class="text-3xl font-bold font-sans-title text-gray-800">
-            Parts <span class="text-primary">ITL</span> Corp
-          </div>
-        </a>
-        <nav
-          class="hidden md:flex md:items-center space-x-8 font-sans-title font-semibold"
-        >
-          <a
-            href="#productos"
-            class="hover:text-primary transition duration-300"
-            >Prodúctos</a
-          >
-          <a href="#ventajas" class="hover:text-primary transition duration-300"
-            >Por Qué Elegirnos</a
-          >
-          <a
-            href="#contacto"
-            class="py-2 px-4 bg-primary text-white rounded-full hover:bg-orange-700 transition duration-300"
-            >Contáctanos</a
-          >
-        </nav>
-        <button id="menu-button" class="md:hidden focus:outline-none">
-          <svg
-            class="w-6 h-6 text-primary"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16m-7 6h7"
-            ></path>
-          </svg>
-        </button>
-      </div>
-      <div id="mobile-menu" class="hidden md:hidden shadow-lg">
-        <nav class="px-2 pt-2 pb-3 space-y-1 sm:px-3 font-sans-title bg-white">
-          <a
-            href="#productos"
-            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50"
-            >Prodúctos</a
-          >
-          <a
-            href="#ventajas"
-            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50"
-            >Por Qué Elegirnos</a
-          >
-          <a
-            href="#contacto"
-            class="block px-3 py-2 rounded-full text-base font-medium bg-primary text-white hover:bg-orange-700"
-            >Contáctanos</a
-          >
-        </nav>
-      </div>
-    </header>
-<!-- ENCABEZADO Y PROPUESTA DE VALOR -->
-    <section class="bg-gray-50 pt-16 pb-20">
-      <div
-        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center"
-      >
-        <div>
-          <h1
-            class="text-4xl lg:text-6xl font-extrabold font-sans-title mb-4 text-gray-900"
-          >
-            <span class="text-primary">El futuro</span> de la movilidad
-            eléctrica
-          </h1>
-          <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-            Descubre nuestra gama de innovadoras motocicletas eléctricas,
-            triciclos y repuestos premium. Sostenibles, eficientes y diseñados
-            para el mundo moderno.
-          </p>
-          <div
-            class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"
-          >
-            <a
-              href="#productos"
-              class="py-3 px-6 bg-primary text-white font-semibold rounded-full shadow-lg hover:bg-orange-700 transition duration-300 text-lg text-center"
-            >
-              Explorar productos
-            </a>
-            <a
-            href="http://wa.me/50764300025?text=Hola,%20he%20visitado%20su%20web,%20me%20interesa%20el%20servicio%20que%20ofrece%20y%20quisiera%20más%20información" target="_blank"
-              class="py-3 px-8 text-primary border-2 border-primary font-semibold rounded-full hover:bg-orange-600 hover:text-white transition duration-300 text-lg text-center"
-            >
-              Solicitar Cotización
-            </a>
-          </div>
-        </div>
-        <div class="hidden md:block">
-          <div class="aspect-w-16 aspect-h-9">
-            <img src="./assets/head.jpg" alt="Moviliddad eléctrica" class="rounded-xl border border-gray-200">
-          </div>
-        </div>
-      </div>
-    </section>
-<!-- PRODUCTOS -->
-    <section id="productos" class="py-20 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2
-          class="text-4xl lg:text-6xl font-extrabold font-sans-title text-center mb-5 text-gray-900"
-        >
-          Nuestros productos
-        </h2>
-        <p class="mb-16 text-center text-xl text-gray-600">
-          Explora nuestra principal gama de vehículos eléctricos, piezas y
-          repuestos
-        </p>
-        <!-- CARDS -->
-        <div class="grid md:grid-cols-3 gap-6">
-          <div
-            id="vehiculos"
-            class="shadow-md rounded-xl overflow-hidden group hover:shadow-2xl transition duration-500"
-          >
-            <div
-              class="relative h-64 flex items-center justify-center"
-            >
-              <img src="./assets/c400.jpg" alt="Tricilo C400" class="w-full">
-            </div>
-            <div class="p-5">
-              <h3 class="text-2xl font-bold font-sans-title mb-3">
-                Triciclo eléctrico C-400
-              </h3>
-              <p class="text-gray-600 mb-3">
-                Solución robusta para transporte de mercancías. Diseño de tres ruedas que proporciona mayor estabilidad.
-              </p>
-              <ul class="mb-5 list-disc px-5">
-                <li class="text-primary">
-                  <span class="text-black">Hasta 70km de autonomía</span>
-                </li>
-                <li class="text-primary"><span class="text-black">Batería LifePO4 de 60V - 90Ah</span></li>
-                <li class="text-primary"><span class="text-black">Hasta 400 kg de carga</span></li>
-              </ul>
-              <a
-                href="#contacto"
-                class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-orange-700 transition duration-300 px-3 py-2"
-              >
-                Más información
-                <svg
-                  class="w-4 h-4 ml-3"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  ></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          <div
-          id="vehiculos"
-          class="shadow-md rounded-xl overflow-hidden group hover:shadow-2xl transition duration-500"
-        >
-          <div
-            class="relative h-64 flex items-center justify-center"
-          >
-            <img src="./assets/c600.jpg" alt="C800" class="w-full">
-          </div>
-          <div class="p-5">
-            <h3 class="text-2xl font-bold font-sans-title mb-3">
-              Triciclo eléctrico C-800
-            </h3>
-            <p class="text-gray-600 mb-3">
-              La cabina ofrece resguardo contra el clima, mejorando la experiencia del conductor. Ideal para cargas y pasajeros.
-            </p>
-            <ul class="mb-5 list-disc px-5">
-              <li class="text-primary">
-                <span class="text-black">Hasta 70km de autonomía</span>
-              </li>
-              <li class="text-primary"><span class="text-black">Batería LifePO4 de 60V - 90Ah</span></li>
-              <li class="text-primary"><span class="text-black">Hasta 800 kg de carga</span></li>
-            </ul>
-            <a
-              href="#contacto"
-              class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-orange-700 transition duration-300 px-3 py-2"
-            >
-              Más información
-              <svg
-                class="w-4 h-4 ml-3"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                ></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-
-        <div
-        id="vehiculos"
-        class="shadow-md rounded-xl overflow-hidden group hover:shadow-2xl transition duration-500"
-      >
-        <div
-          class="relative h-64 flex items-center justify-center"
-        >
-          <img src="./assets/lt4201.jpg" alt="C800" class="w-full">
-        </div>
-        <div class="p-5">
-          <h3 class="text-2xl font-bold font-sans-title mb-3">
-            Motocicleta eléctrica LT 4201
-          </h3>
-          <p class="text-gray-600 mb-3">
-            Diseño moderno y aerodnámico. Ideal para el tráfico con una maniobrabilidad excepcioal con una autonomía eficiente.
-          </p>
-          <ul class="mb-5 list-disc px-5">
-            <li class="text-primary">
-              <span class="text-black">Hasta 80km de autonomía</span>
-            </li>
-            <li class="text-primary"><span class="text-black">Batería LifePO4 de 60V - 30Ah</span></li>
-            <li class="text-primary"><span class="text-black">Velocidad máxima entre 45 - 50 km/h</span></li>
-          </ul>
-          <a
-            href="#contacto"
-            class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-orange-700 transition duration-300 px-3 py-2"
-          >
-            Más información
-            <svg
-              class="w-4 h-4 ml-3"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M17 8l4 4m0 0l-4 4m4-4H3"
-              ></path>
-            </svg>
-          </a>
-        </div>
-      </div>
-
-      <div
-        id="vehiculos"
-        class="shadow-md rounded-xl overflow-hidden group hover:shadow-2xl transition duration-500"
-      >
-        <div
-          class="relative h-64 flex items-center justify-center"
-        >
-          <img src="./assets/4209.jpg" alt="lt4209" class="w-full">
-        </div>
-        <div class="p-5">
-          <h3 class="text-2xl font-bold font-sans-title mb-3">
-            Motocicleta eléctrica LT 4209
-          </h3>
-          <p class="text-gray-600 mb-3">
-            Combina la asistencia electrica con la opción de pedaléo, adaptándose a tu energía y la distancia. Maximisa la autonomía y minimiza el esfuerzo.
-          </p>
-          <ul class="mb-5 list-disc px-5">
-            <li class="text-primary">
-              <span class="text-black">Hasta 40km de autonomía</span>
-            </li>
-            <li class="text-primary"><span class="text-black">Batería LifePO4 de 48V - 12Ah</span></li>
-            <li class="text-primary"><span class="text-black">Velocidad máxima 30 km/h</span></li>
-          </ul>
-          <a
-            href="#contacto"
-            class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-orange-700 transition duration-300 px-3 py-2"
-          >
-            Más información
-            <svg
-              class="w-4 h-4 ml-3"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M17 8l4 4m0 0l-4 4m4-4H3"
-              ></path>
-            </svg>
-          </a>
-        </div>
-      </div>
-
-      <div
-        id="vehiculos"
-        class="shadow-md rounded-xl overflow-hidden group hover:shadow-2xl transition duration-500"
-      >
-        <div
-          class="relative h-64 flex items-center justify-center"
-        >
-          <img src="./assets/lt4209.jpg" alt="lt4209" class="w-full">
-        </div>
-        <div class="p-5">
-          <h3 class="text-2xl font-bold font-sans-title mb-3">
-            Motocicleta eléctrica LT 4209
-          </h3>
-          <p class="text-gray-600 mb-3">
-            Este modelo A1 cuenta con estructura solida y lineas contemporaneas, perfecta para el uso diario. Conducción suave y silenciosa.
-          </p>
-          <ul class="mb-5 list-disc px-5">
-            <li class="text-primary">
-              <span class="text-black">Hasta 80km de autonomía</span>
-            </li>
-            <li class="text-primary"><span class="text-black">Batería LifePO4 de 48V - 30Ah</span></li>
-            <li class="text-primary"><span class="text-black">Velocidad máxima 30 km/h</span></li>
-          </ul>
-          <a
-            href="#contacto"
-            class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-orange-700 transition duration-300 px-3 py-2"
-          >
-            Más información
-            <svg
-              class="w-4 h-4 ml-3"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M17 8l4 4m0 0l-4 4m4-4H3"
-              ></path>
-            </svg>
-          </a>
-        </div>
-      </div>
-
-      <div
-        id="vehiculos"
-        class="shadow-md rounded-xl overflow-hidden group hover:shadow-2xl transition duration-500"
-      >
-        <div
-          class="relative h-64 flex items-center justify-center"
-        >
-          <img src="./assets/gomas.jpg" alt="neumáticos" class="w-full">
-        </div>
-        <div class="p-5">
-          <h3 class="text-2xl font-bold font-sans-title mb-3">
-            Neumáticos R12
-          </h3>
-          <p class="text-gray-600 mb-3">
-            Diseñados para una tracción óptima en diversas superficies, garantizando seguridad y control.
-          </p>
-          <ul class="mb-5 list-disc px-5">
-            <li class="text-primary">
-              <span class="text-black">Neumático R12 X 450</span>
-            </li>
-            <li class="text-primary"><span class="text-black">Camara R12 X 450</span></li>
-            <li class="text-primary"><span class="text-black">Neumáticos 3.5-12 C- 400</span></li>
-            <li class="text-primary"><span class="text-black">Camara 3.5-12 C- 400</span></li>
-          </ul>
-          <a
-            href="#contacto"
-            class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-orange-700 transition duration-300 px-3 py-2"
-          >
-            Más información
-            <svg
-              class="w-4 h-4 ml-3"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M17 8l4 4m0 0l-4 4m4-4H3"
-              ></path>
-            </svg>
-          </a>
-        </div>
-      </div>
-
-        </div>
-        <div class="flex flex-col items-center text-xl mt-16">
-          <p class="text-gray-600">
-          Contamos además con una amplia gama de repuestos que aseguran el ajuste perfecto y una instalación sin problemas.
-        </p>
-        <a href="#contacto" class="mt-5 text-primary font-bold hover:underline">Puede contactarnos para conocer más</a>
-        </div>
-      </div>
-    </section>
-<!-- CREDIBILIDAD Y CONFIANZA  -->
-    <section id="ventajas" class="py-20 bg-gray-50">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2
-          class="text-4xl lg:text-6xl font-extrabold font-sans-title text-center mb-5 text-gray-900"
-        >
-        ¿Por qué elegirnos?
-        </h2>
-        <p class="mb-16 text-center text-xl text-gray-600">
-          Liderando la revolución de vehículos eléctricos con innovación y
-          calidad
-        </p>
-
-        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center">
-          <div class="p-6">
-            <div
-              class="mx-auto w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-primary text-white"
-            >
-              <svg
-                class="w-8 h-8"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 12l2 2 4-4m5.618-4.168a12.002 12.002 0 00-11.23-1.637l-1.028 1.028a12.002 12.002 0 00-1.637 11.23m11.23 1.637l1.028-1.028c.328-.328.629-.685.908-1.066m-13.682-1.637a12.002 12.002 0 001.637 11.23"
-                ></path>
-              </svg>
-            </div>
-            <h3 class="text-xl font-bold font-sans-title mb-2 text-gray-900">
-              Calidad Garantizada
-            </h3>
-            <p class="text-gray-600">
-              Partes originales y vehículos con certificación, asegurando tu
-              inversión y seguridad.
-            </p>
-          </div>
-          <div class="p-6">
-            <div
-              class="mx-auto w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-primary text-white"
-            >
-              <svg
-                class="w-8 h-8"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
-                ></path>
-              </svg>
-            </div>
-            <h3 class="text-xl font-bold font-sans-title mb-2 text-gray-900">
-              Inventario Completo
-            </h3>
-            <p class="text-gray-600">
-              Gran variedad de partes, desde gomas hasta componentes
-              electrónicos listos para envío.
-            </p>
-          </div>
-          <div class="p-6">
-            <div
-              class="mx-auto w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-primary text-white"
-            >
-              <svg
-                class="w-8 h-8"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5.464 5.464l-3.536-3.536M9.828 9.828l-3.536-3.536m3.536 3.536l-3.536 3.536"
-                ></path>
-              </svg>
-            </div>
-            <h3 class="text-xl font-bold font-sans-title mb-2 text-gray-900">
-              Asesoría Experta
-            </h3>
-            <p class="text-gray-600">
-              Nuestro equipo te ayuda a elegir el vehículo o la pieza exacta
-              para tus necesidades.
-            </p>
-          </div>
-          <div class="p-6">
-            <div
-              class="mx-auto w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-primary text-white"
-            >
-              <svg
-                class="w-8 h-8"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 8c-2.485 0-4 1.515-4 4s1.515 4 4 4 4-1.515 4-4-1.515-4-4-4z"
-                ></path>
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 2a10 10 0 100 20 10 10 0 000-20z"
-                ></path>
-              </svg>
-            </div>
-            <h3 class="text-xl font-bold font-sans-title mb-2 text-gray-900">
-              Precio Competitivo
-            </h3>
-            <p class="text-gray-600">
-              La mejor relación entre precio y calidad en el mercado de la
-              movilidad eléctrica.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-<!-- CTA -->
-    <section id="contacto" class="bg-gray-800 py-20 flex flex-col items-center">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2
-          class="text-4xl lg:text-6xl font-extrabold font-sans-title text-center mb-5 text-white"
-        >
-          Contáctanos
-        </h2>
-        <p class="text-xl text-gray-300 text-center mb-16">
-          Contáctanos hoy para recibir una cotización o asesoría personalizada.
-        </p>
-
-        <div class="mt-12 grid md:grid-cols-3 gap-8 text-center text-white">
-          <a href="tel:+50764300025" class="bg-gray-600 p-5 rounded-xl">
-            <div class="mx-auto w-12 h-12 mb-4 flex items-center justify-center rounded-full bg-primary text-white">
-                <svg
-              class="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M3 5a2 2 0 012-2h3.28a1 1 0 00.948.684l1.498 4.493a1 1 0 00.956.687h4.003a1 1 0 00.956-.687l1.498-4.493A1 1 0 0019.72 3H21a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5z"
-              ></path>
-            </svg>
-            </div>
-            <p class="font-sans-title font-semibold">Teléfono</p>
-            <p class="text-sm">+507 6430-0025</p>
-          </a>
-
-          <a href="mailto:part.itl.comercial@gmail.com?subject=Hola,%20he%20visitado%20su%20web,%20me%20interesa%20el%20servicio%20que%20ofrece%20y%20quisiera%20más%20información" class="bg-gray-600 p-5 rounded-xl">
-            <div class="mx-auto w-12 h-12 mb-4 flex items-center justify-center rounded-full bg-primary text-white">
-                <svg
-              class="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M3 8l7.84 5.23a1 1 0 001.03 0L21 8m-7 14h6a2 2 0 002-2V6a2 2 0 00-2-2H8a2 2 0 00-2 2v10a2 2 0 002 2h6"
-              ></path>
-            </svg>
-            </div>
-            <p class="font-sans-title font-semibold">Correo</p>
-            <p class="text-sm">part.itl.comercial@gmail.com</p>
-          </a>
-          
-          <div class="bg-gray-600 p-5 rounded-xl">
-            <div class="mx-auto w-12 h-12 mb-4 flex items-center justify-center rounded-full bg-primary text-white">
-                <svg
-              class="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M17.657 16.657L13.414 20.9a1.99 1.99 0 01-2.828 0L6.343 16.657M12 10a4 4 0 110 8 4 4 0 010-8z"
-              ></path>
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 21.75l-4-4a8 8 0 118 0l-4 4z"
-              ></path>
-            </svg>
-            </div>
-            <p class="font-sans-title font-semibold">Ubicación</p>
-            <p class="text-sm">
-              Ave Samuel Lewis, SL55 Tower, No Orden ITL 1620, Panama
-            </p>
-          </div>
-        </div>
-      </div>
-      <a href="http://wa.me/50764300025?text=Hola,%20he%20visitado%20su%20web,%20me%20interesa%20el%20servicio%20que%20ofrece%20y%20quisiera%20más%20información" target="_blank" class="flex justify-center text-white rounded-full bg-primary px-6 py-3 mt-12 max-w-4xl hover:bg-orange-700 transition duration-300">
-        Solicitar cotización
-    </a>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="bg-gray-900 text-gray-400 py-6">
-      <div
-        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center text-sm"
-      >
-      <div class="flex flex-col">
-        <p>&copy; 2025 Parts ITL Corp. Todos los derechos reservados.</p>
-        <p class="text-gray-600">Powered by <a href="https://github.com/LeonardoYoel" target="_blank">LEO</a></p>
-      </div>
-        
-        <div class="flex items-center space-x-4">
-            <img src="./assets/logo.jpg" alt="logo" class="rounded-xl w-16">
-            <div class="flex flex-col mt-4 md:mt-0">
-                <p href="#" class="text-white font-bold"
-                  >Parts <span class="text-primary">ITL</span> Corp</p
-                >
-                <!-- <span class="text-white font-bold">-</span> -->
-                <span class="text-white/50"
-                  >Liderando la revolución de vehículos eléctricos</span
-                >
-              </div>
-        </div>
-        
-      </div>
-    </footer>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const menuButton = document.getElementById("menu-button");
-        const mobileMenu = document.getElementById("mobile-menu");
-
-        // Toggle para el menú móvil
-        menuButton.addEventListener("click", () => {
-          mobileMenu.classList.toggle("hidden");
-        });
-
-        // Cerrar menú móvil al hacer clic en un enlace
-        const mobileLinks = mobileMenu.querySelectorAll("a");
-        mobileLinks.forEach((link) => {
-          link.addEventListener("click", () => {
-            mobileMenu.classList.add("hidden");
-          });
-        });
-      });
-    </script>
-  </body>
-</html>
-
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Motion Tech | Empresa comercializadora de partes y piezas</title>
     <meta
       name="description"
@@ -820,7 +84,7 @@
           >
           <a
             href="#contacto"
-            class="py-2 px-4 bg-primary text-white rounded-full hover:bg-orange-700 transition duration-300"
+            class="py-2 px-4 bg-primary text-white rounded-full hover:bg-green-700 transition duration-300"
             >Contáctanos</a
           >
         </nav>
@@ -855,7 +119,7 @@
           >
           <a
             href="#contacto"
-            class="block px-3 py-2 rounded-full text-base font-medium bg-primary text-white hover:bg-orange-700"
+            class="block px-3 py-2 rounded-full text-base font-medium bg-primary text-white hover:bg-green-700"
             >Contáctanos</a
           >
         </nav>
@@ -883,13 +147,13 @@
           >
             <a
               href="#productos"
-              class="py-3 px-6 bg-primary text-white font-semibold rounded-full shadow-lg hover:bg-orange-700 transition duration-300 text-lg text-center"
+              class="py-3 px-6 bg-primary text-white font-semibold rounded-full shadow-lg hover:bg-green-700 transition duration-300 text-lg text-center"
             >
               Explorar productos
             </a>
             <a
-            href="http://wa.me/50764300025?text=Hola,%20he%20visitado%20su%20web,%20me%20interesa%20el%20servicio%20que%20ofrece%20y%20quisiera%20más%20información" target="_blank"
-              class="py-3 px-8 text-primary border-2 border-primary font-semibold rounded-full hover:bg-orange-600 hover:text-white transition duration-300 text-lg text-center"
+            href="http://wa.me/+523319876992?text=Hola,%20he%20visitado%20su%20web,%20me%20interesa%20el%20servicio%20que%20ofrece%20y%20quisiera%20más%20información" target="_blank"
+              class="py-3 px-8 text-primary border-2 border-primary font-semibold rounded-full hover:bg-green-600 hover:text-white transition duration-300 text-lg text-center"
             >
               Solicitar Cotización
             </a>
@@ -941,7 +205,7 @@
               </ul>
               <a
                 href="#contacto"
-                class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-orange-700 transition duration-300 px-3 py-2"
+                class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-green-700 transition duration-300 px-3 py-2"
               >
                 Más información
                 <svg
@@ -987,7 +251,7 @@
             </ul>
             <a
               href="#contacto"
-              class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-orange-700 transition duration-300 px-3 py-2"
+              class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-green-700 transition duration-300 px-3 py-2"
             >
               Más información
               <svg
@@ -1033,7 +297,7 @@
           </ul>
           <a
             href="#contacto"
-            class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-orange-700 transition duration-300 px-3 py-2"
+            class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-green-700 transition duration-300 px-3 py-2"
           >
             Más información
             <svg
@@ -1079,7 +343,7 @@
           </ul>
           <a
             href="#contacto"
-            class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-orange-700 transition duration-300 px-3 py-2"
+            class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-green-700 transition duration-300 px-3 py-2"
           >
             Más información
             <svg
@@ -1125,7 +389,7 @@
           </ul>
           <a
             href="#contacto"
-            class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-orange-700 transition duration-300 px-3 py-2"
+            class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-green-700 transition duration-300 px-3 py-2"
           >
             Más información
             <svg
@@ -1172,7 +436,7 @@
           </ul>
           <a
             href="#contacto"
-            class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-orange-700 transition duration-300 px-3 py-2"
+            class="text-white font-semibold flex justify-center items-center w-full bg-primary rounded-full shadow-lg hover:bg-green-700 transition duration-300 px-3 py-2"
           >
             Más información
             <svg
@@ -1364,7 +628,7 @@
             </svg>
             </div>
             <p class="font-sans-title font-semibold">Teléfono</p>
-            <p class="text-sm">+52 3319876992</p>
+            <p class="text-sm">+52 33 19876992</p>
           </a>
 
           <a href="mailto:administracion@motiontech.mx?subject=Hola,%20he%20visitado%20su%20web,%20me%20interesa%20el%20servicio%20que%20ofrece%20y%20quisiera%20más%20información" class="bg-gray-600 p-5 rounded-xl">
@@ -1418,7 +682,7 @@
           </div>
         </div>
       </div>
-      <a href="http://wa.me/+523319876992?text=Hola,%20he%20visitado%20su%20web,%20me%20interesa%20el%20servicio%20que%20ofrece%20y%20quisiera%20más%20información" target="_blank" class="flex justify-center text-white rounded-full bg-primary px-6 py-3 mt-12 max-w-4xl hover:bg-orange-700 transition duration-300">
+      <a href="http://wa.me/+523319876992?text=Hola,%20he%20visitado%20su%20web,%20me%20interesa%20el%20servicio%20que%20ofrece%20y%20quisiera%20más%20información" target="_blank" class="flex justify-center text-white rounded-full bg-primary px-6 py-3 mt-12 max-w-4xl hover:bg-green-700 transition duration-300">
         Solicitar cotización
     </a>
     </section>
